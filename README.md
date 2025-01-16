@@ -20,11 +20,18 @@ sudo docker run --name gaianet -p 6969:6969 -v $(pwd)/qdrant_storage:/root/gaian
 ```
 - Now use these below command to get node-info
 ```
-docker exec -it gaianet /bin/bash
-```
-```
-/root/gaianet/bin/gaianet info
+docker exec -it gaianet /root/gaianet/bin/gaianet info
 ```
 - Copy `Node ID` and `Device ID` and then write `exit` to detach from this container
 - Visit [Gaianode Site](https://www.gaianet.ai/setting/nodes) and then connect your wallet
 - Now click on `connect new node`, here enter your `Node ID` and `Device ID` and then click on `Join` button
+- Afterthat, customize this url using your `Node ID` and then vist the modified url and then start chatting with it to increase `throughput`
+```
+ https://YOUR_NODE_ID.us.gaianet.network
+```
+- **The more you chat, the higher the `throughput`, and the more Gaianet points you will earn.**
+## Back Up `nodeid.json` (Imp)
+- Use the below command and then save its somewhere (vvip)
+```
+docker exec -it gaianet cat /root/gaianet/nodeid.json
+```
