@@ -18,12 +18,16 @@ sudo groupadd docker && sudo usermod -aG docker $(whoami) && newgrp docker
 ```
 sudo docker run --name gaianet -p 6969:6969 -v $(pwd)/qdrant_storage:/root/gaianet/qdrant/storage:z gaianet/phi-3-mini-instruct-4k_paris:latest
 ```
+
+![image](https://github.com/user-attachments/assets/c9c5216a-4149-48f0-ba80-b985e1c59c6c)
+
+- Once you will see like this, just close the terminal and again reopen it
 - Now use these below command to get node-info
 ```
 docker exec -it gaianet /root/gaianet/bin/gaianet info
 ```
 - Copy `Node ID` and `Device ID` and then write `exit` to detach from this container
-- Visit [Gaianode Site](https://www.gaianet.ai/setting/nodes) and then connect your wallet
+- Visit [Gaianet Site](https://www.gaianet.ai/setting/nodes) and then connect your wallet
 - Now click on `connect new node`, here enter your `Node ID` and `Device ID` and then click on `Join` button
 - Afterthat, customize this url using your `Node ID` and then vist the modified url and then start chatting with it to increase `throughput`
 ```
