@@ -39,3 +39,16 @@ docker exec -it gaianet /root/gaianet/bin/gaianet info
 ```
 docker exec -it gaianet cat /root/gaianet/nodeid.json
 ```
+## FAQ
+
+**1. Should I run this node all the time (24 × 7)?**  
+- No, you should only run it while chatting with your bot. You will not earn any `throughput` just by running the node all the time; you also need to interact with the bot.
+
+**2. So, it is better to run it on a local system (WSL on Windows, Ubuntu) instead of running it on VPS all the time, right?**  
+- Yes, you should run it when you want to chat with the bot and stop it when you're done.
+
+**3. How do I stop this node if I don't want to chat with the bot?**  
+- Use this command : `sudo docker stop gaianet`
+
+**4. If I want to run it again to chat with the bot, how do I restart the node?**  
+- Use this command : `sudo docker restart gaianet`
