@@ -21,8 +21,8 @@ sudo docker run --name gaianet -p 6969:6969 -v $(pwd)/qdrant_storage:/root/gaian
 
 ![image](https://github.com/user-attachments/assets/c9c5216a-4149-48f0-ba80-b985e1c59c6c)
 
-- Once you will see like this, just close the terminal and again reopen it
-- Now use these below command to get node-info
+- Once you will see like this, simply close the terminal and again reopen it
+- Now use this below command to get `node-info`
 ```
 docker exec -it gaianet /root/gaianet/bin/gaianet info
 ```
