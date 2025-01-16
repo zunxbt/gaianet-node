@@ -29,7 +29,7 @@ docker exec -it gaianet /root/gaianet/bin/gaianet info
 - Copy `Node ID` and `Device ID` and then write `exit` to detach from this container
 - Visit [Gaianet Site](https://www.gaianet.ai/setting/nodes) and then connect your wallet
 - Now click on `connect new node`, here enter your `Node ID` and `Device ID` and then click on `Join` button
-- Afterthat, customize this url using your `Node ID` and then vist the modified url and then start chatting with it to increase `throughput`
+- After that, customize this URL using your `Node ID`, visit the modified URL, and start chatting with it to increase `throughput`
 ```
  https://YOUR_NODE_ID.us.gaianet.network
 ```
