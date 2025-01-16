@@ -2,7 +2,7 @@
 
 ## Info
 - You need to have min 16 GB RAM in your system (VPS), btw it also works on 8 GB RAM as well (I tested).
-- Recommended : 32 GB RAM
+- VPS is not mandatory, u can even run it in your local system (Ubuntu on your PC). While running the node, keep chatting with the bot and when you will not chat just stop the docker using `docker stop gaianet` . And If you again want to chat with the bot next time, restart the docker first and then chat with the bot using `docker restart gaianet`
 - You can buy VPS from [PQ Hosting](https://pq.hosting/?from=622403&lang=en) using cryptocurrency
 - Make sure to use : Ubuntu-22.04 or Ubuntu-24.04
 
